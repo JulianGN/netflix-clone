@@ -1,0 +1,101 @@
+:root{
+    --red:#E50914;
+    --black:#141414; 
+    --white:#ffffff;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 1.5rem;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--red);
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-left: .75rem;
+}
+
+header nav a{
+    color: #aaa;
+    margin-right: .75rem;
+}
+header nav a:hover{
+    color: #fff;
+    margin-right: .75rem;
+}
+
+/*main movie*/
+.main-movie{
+    font-size: 1.2rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75),rgba(0,0,0,0.25)), url(../img/bg-sda3.jpg);
+    background-size: cover;
+    height: 600px;
+    height: 60vh;
+    min-height: 400x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--white);
+}
+
+.main-movie .description{
+    margin-bottom: 3rem;
+}
+
+.main-movie .title{
+    margin-top: 5%;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: rgba(0,0,0,.5);
+    border: none;
+    color: var(--white);
+    padding: 1.25rem 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: color .5s;
+}
+.btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+    transition: color .25s;
+}
+
+.buttons span{
+    margin-left: .5rem;
+}
+
+/* carousel */
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
