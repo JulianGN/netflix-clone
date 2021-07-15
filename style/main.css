@@ -99,3 +99,11 @@ header nav a:hover{
     width: 100%;
     display: block;
 }
+
+.movies-carousel{
+    margin-top: .75rem;
+}
+
+.movies-carousel .item{
+    cursor: pointer;
+}
